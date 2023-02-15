@@ -1,0 +1,104 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: rgba(0, 0, 0, 0.879);
+}
+.video {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  height: 100%;
+  z-index: -1;
+}
+.Block {
+  display: flex;
+  flex: 50%;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.Block__title {
+  font-size: 10rem;
+  font-family: Impact, fantasy;
+  mix-blend-mode: color-dodge;
+  max-width: fit-content;
+  min-width: none;
+  color: #06b306;
+}
+.Block__subtitle {
+  max-width: 500px;
+  font-size: 2rem;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  max-width: fit-content;
+  width: 500px;
+  color: #fffefe;
+  margin-left: 10px;
+}
+.Block__profiles {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: flex-end;
+  max-width: 100%;
+  position: relative;
+  top: -30%;
+}
+.Block__profiles-1 {
+  border: 2px transparent;
+  margin-left: 10px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-top: 0 auto;
+  animation-name: rotacion;
+  animation-direction: alternate-reverse;
+  animation-duration: 10s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: infinite;
+}
+.Block__profiles-2 {
+  border: 2px transparent;
+  margin-left: 10px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-top: 0 auto;
+  animation-name: rotacion;
+  animation-direction: alternate-reverse;
+  animation-duration: 10s;
+  animation-fill-mode: backwards;
+  animation-iteration-count: infinite;
+}
+.Block__profiles-3 {
+  border: 2px transparent;
+  margin-left: 10px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-top: 0 auto;
+  animation-name: rotacion;
+  animation-direction: alternate-reverse;
+  animation-duration: 10s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: infinite;
+}
+.Block__profiles-4 {
+  border: 2px transparent;
+  margin-left: 10px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-top: 0 auto;
+  animation-name: rotacion;
+  animation-direction: alternate-reverse;
+  animation-duration: 10s;
+  animation-fill-mode: backwards;
+  animation-iteration-count: infinite;
+}
+@keyframes rotacion {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
