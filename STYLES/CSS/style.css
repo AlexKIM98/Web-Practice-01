@@ -20,7 +20,7 @@ body {
   flex-wrap: wrap;
 }
 .Block__title {
-  font-size: 10rem;
+  font-size: 9.9rem;
   font-family: Impact, fantasy;
   mix-blend-mode: color-dodge;
   max-width: fit-content;
